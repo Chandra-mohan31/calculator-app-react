@@ -1,0 +1,16 @@
+.calculateButton{
+    color: white;
+    background-color: rgb(37, 116, 226);
+    height: 30px;
+    width: 200px;
+    /* font-weight: bolder; */
+    font-family: cursive;
+    border: none;
+
+    margin: 10px;
+    transition: 1s ease;
+}
+
+.calculateButton:hover{
+    transform: scale(0.9);
+}

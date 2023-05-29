@@ -1,0 +1,31 @@
+
+.calculator {
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    grid-gap: 5px;
+    height: 330px;
+    width: 300px;
+    /* border: 1px solid grey; */
+    padding: 20px;
+    background-color: whitesmoke;
+  }
+  
+  .row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+  }
+  
+.calculator_input{
+    height: 50px;
+    width: 98%;
+    border: none;
+    margin-bottom: 20px;
+    text-align: right;
+    border-bottom: 2px solid #0072c5;
+    font-size: large;
+}
+
+input:focus{
+  outline: none;
+}
