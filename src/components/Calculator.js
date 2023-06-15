@@ -20,7 +20,7 @@ function Calculator() {
         console.log("calculate the value");
         console.log(calciInput);
         try {
-            const result = eval(calciInput);
+            const result = calciInput;
             setCalciInput(result);
           } catch (error) {
             alert( 'Error: Invalid expression');
